@@ -23,3 +23,5 @@ THEN I am again presented with current and future conditions for that city
 [dev](https://dev.to/am20dipi/how-to-build-a-simple-search-bar-in-javascript-4onf)
 [youtube](https://www.youtube.com/watch?v=QEu8_5bYm-w)
 
+[Deployed website](https://bloodymajima.github.io/weather-forecast/)
+
