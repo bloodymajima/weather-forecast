@@ -19,4 +19,7 @@ THEN I am again presented with current and future conditions for that city
 
 ## Credits
 [coding boot camp](https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys)
+[stack overflow](https://stackoverflow.com/questions/13194623/get-location-when-pages-loads)
+[dev](https://dev.to/am20dipi/how-to-build-a-simple-search-bar-in-javascript-4onf)
+[youtube](https://www.youtube.com/watch?v=QEu8_5bYm-w)
 

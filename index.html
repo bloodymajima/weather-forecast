@@ -2,47 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Weather Forcaster</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header id="header">
         <h1>Weather Dashboard</h1>
     </header>
 
     <main>
         <div id="city-info-box">
+            <!-- Make elements in js
             <h2>City Name</h2>
             <li>Temp:</li>
             <li>Wind:</li>
-            <li>Humidity:</li>
-            
+            <li>Humidity:</li> -->
         </div>
         <div id="day-forecast">
-            <h2>5-Day Forecast</h2>
-            <div id="forecast-day-1"></div> 
-            <div id="forecast-day-2"></div> 
-            <div id="forecast-day-3"></div> 
-            <div id="forecast-day-4"></div> 
-            <div id="forecast-day-5"></div>
         </div>
 
     </main>
 
     <aside>
-        <h3>Search:</h3>
-        <input id="search-box"><br>
+        <h3>Find A City:</h3>
+        <form class="form">
+            <input id="search-box" type="text" class="input"/>
+            <button id="search" class="search-button">search</button>
+        </form>
 
         Recommended Cities:
         <ul>
-            <button>Atlanta</button>
-            <button>Denver</button>
-            <button>Seattle</button>
-            <button>San Francisco</button>
-            <button>Orlando</button>
+            <button id="atlanta">Atlanta</button>
+            <button id="denver">Denver</button>
+            <button id="seattle">Seattle</button>
+            <button id="san-francisco">San Francisco</button>
+            <button id="orlando">Orlando</button>
         </ul>
     </aside>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
